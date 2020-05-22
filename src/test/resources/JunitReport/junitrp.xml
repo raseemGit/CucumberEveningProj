@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="2.083592">
+<testcase classname="Facebook Login Feature" name="User Validate Login Feature by valid Creditial" time="1.871074">
+<system-out><![CDATA[Given user laucnh chrome browser............................................passed
+And user enter url..........................................................passed
+When user enter userName and passWord.......................................passed
+And user click login button.................................................passed
+Then user verify result.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login Feature" name="User Validate Login Feature by valid Creditial 2" time="0.212518">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.steps.StepDefinition.user_verify_result_scenario_two(StepDefinition.java:132)&#13;&#10;&#9;at ✽.user verify result scenario two(file:src/test/resources/FeaturesFolder/FbLogin.feature:26)&#13;&#10;"><![CDATA[Given user laucnh chrome browser............................................passed
+And user enter url..........................................................passed
+When user enter userName and passWord.......................................passed
+And user click login button.................................................passed
+Then user verify result scenario two........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.steps.StepDefinition.user_verify_result_scenario_two(StepDefinition.java:132)
+	at ✽.user verify result scenario two(file:src/test/resources/FeaturesFolder/FbLogin.feature:26)
+]]></failure>
+</testcase>
+</testsuite>

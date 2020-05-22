@@ -1,0 +1,318 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 41651734,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user laucnh chrome browser",
+            "match": {
+              "location": "StepDefinition.user_laucnh_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6874359,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url",
+            "match": {
+              "location": "StepDefinition.user_enter_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-14T11:12:10.022Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5491417,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User Validate Login Feature by valid Creditial",
+        "description": "",
+        "id": "facebook-login-feature;user-validate-login-feature-by-valid-creditial",
+        "after": [
+          {
+            "result": {
+              "duration": 187674578,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 125506464,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter userName and passWord",
+            "match": {
+              "location": "StepDefinition.user_enter_userName_and_passWord(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "empID",
+                  "empName",
+                  "empEmailId"
+                ]
+              },
+              {
+                "cells": [
+                  "100",
+                  "Vel",
+                  "Vel@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "200",
+                  "Saranya",
+                  "Saranya@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "300",
+                  "Nishanthi",
+                  "Nishanthi@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 702414,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click login button",
+            "match": {
+              "location": "StepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 510225,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user verify result",
+            "match": {
+              "location": "StepDefinition.user_verify_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@e2e"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 489023,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user laucnh chrome browser",
+            "match": {
+              "location": "StepDefinition.user_laucnh_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 794064,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url",
+            "match": {
+              "location": "StepDefinition.user_enter_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-14T11:12:11.639Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1915053,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User Validate Login Feature by valid Creditial",
+        "description": "",
+        "id": "facebook-login-feature;user-validate-login-feature-by-valid-creditial",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.steps.Hooks.afterScenario(Hooks.java:37)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\n",
+              "duration": 117595240,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62249504,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter userName and passWord",
+            "match": {
+              "location": "StepDefinition.user_enter_userName_and_passWord(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "empID",
+                  "empName",
+                  "empEmailId"
+                ]
+              },
+              {
+                "cells": [
+                  "100",
+                  "Vel",
+                  "Vel@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "200",
+                  "Saranya",
+                  "Saranya@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "300",
+                  "Nishanthi",
+                  "Nishanthi@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1220163,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click login button",
+            "match": {
+              "location": "StepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.steps.StepDefinition.user_verify_result_scenario_two(StepDefinition.java:132)\r\n\tat ✽.user verify result scenario two(file:src/test/resources/FeaturesFolder/FbLogin.feature:26)\r\n",
+              "duration": 42805554,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "user verify result scenario two",
+            "match": {
+              "location": "StepDefinition.user_verify_result_scenario_two()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@e2e"
+          },
+          {
+            "name": "@functional"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login Feature",
+    "description": "",
+    "id": "facebook-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeaturesFolder/FbLogin.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@e2e",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]
